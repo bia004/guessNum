@@ -43,7 +43,6 @@ answers.style.visibility = "hidden";
 userGuess.textContent = "You guessed: "
 correctGuess.textContent = "Correct guess: "
 guess = '';
-console.log(randNum)
 heading.textContent = 'Guess the Number ❓'
 })
 
