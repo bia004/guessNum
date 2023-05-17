@@ -1,0 +1,70 @@
+html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background:linear-gradient(to bottom, #090909,#160a16);
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color:white;
+}
+
+.main{
+    color:white;
+}
+
+.main-heading{
+  
+    text-align: center;
+    font-size: 100px;
+    padding:0px;
+    margin:100px 0 0px 0px;
+    letter-spacing: -5px;
+    background: -webkit-linear-gradient(#ca74e2, #6b789a);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+.instruction{
+    margin:20px 0 50px 0;
+}
+
+.buttons{
+    display:block;
+    padding:20px;
+}
+
+.guess{
+    padding:20px;
+    margin-bottom:20px;
+    width:150px;
+    background-color: transparent;
+    border:2px solid #4A4B59;
+    border-radius: 8px;
+}
+
+.buttons button{
+    padding: 15px 20px;
+    font-size: 20px;
+    margin: 0 10px;
+    background-color:transparent;
+    border:2px solid #4A4B59;
+    border-radius: 8px;
+    color:#a2a2ad;
+    border-radius: 8px;
+    cursor: pointer;
+    color:white;
+}
+
+input[type=number] {
+   color:white;
+   font-size: 30px;
+}
