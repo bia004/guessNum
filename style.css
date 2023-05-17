@@ -17,6 +17,7 @@ body{
 
 .main{
     color:white;
+    font-size: 24px;;
 }
 
 .main-heading{
@@ -24,12 +25,18 @@ body{
     font-size: 100px;
     padding:0px;
     margin:100px 0 0px 0px;
+    
+ 
+
     letter-spacing: -5px;
     background: -webkit-linear-gradient(#ca74e2, #6b789a);
     background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
- 
+}
+
+.result{
+    font-size: 40px;
 }
 
 .instruction{
@@ -44,7 +51,7 @@ body{
 .guess{
     padding:20px;
     margin-bottom:20px;
-    width:150px;
+  
     background-color: transparent;
     border:2px solid #4A4B59;
     border-radius: 8px;
@@ -58,12 +65,21 @@ body{
     border:2px solid #4A4B59;
     border-radius: 8px;
     color:#a2a2ad;
-    border-radius: 8px;
+ 
     cursor: pointer;
     color:white;
 }
 
 input[type=number] {
    color:white;
-   font-size: 30px;
+
+   font-size: 100px;
+   text-align: center;
 }
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 30;
+} 
+*/
