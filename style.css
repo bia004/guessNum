@@ -6,7 +6,7 @@ html{
 }
 
 body{
-    background:linear-gradient(to bottom, #090909,#160a16);
+    background:linear-gradient(to bottom, #160a16,#090909,#160a16);
    text-align: center;
    font-family: 'Josefin Sans', sans-serif; 
    display: flex;
@@ -20,7 +20,6 @@ body{
 }
 
 .main-heading{
-  
     text-align: center;
     font-size: 100px;
     padding:0px;
